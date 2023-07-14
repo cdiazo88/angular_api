@@ -1,0 +1,14 @@
+
+<button (click)="buscarPosts()">buscarPost</button>
+
+<ul class="list-group">
+    <li class="list-group-item" *ngFor="let dato of datos | async" >
+
+        <h2> {{ dato.title }} </h2>
+
+        <p>
+            {{ dato.body }}    
+        </p>
+
+    </li>
+</ul>

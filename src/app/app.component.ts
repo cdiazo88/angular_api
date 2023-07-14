@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'heroes-angular';
+  titulo = "Sumas"
+  n1 = 1;
+  n2 = 2;
+  condicion = true;
 }
